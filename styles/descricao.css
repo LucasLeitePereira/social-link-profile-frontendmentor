@@ -1,0 +1,22 @@
+.descricao {
+    text-align: center;
+}
+
+.descricao h1 {
+    font-family: "Inter", serif;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 26px;
+
+    color: var(--white);
+} 
+
+.descricao p {
+    font-family: "Inter", serif;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: var(--green);
+
+}

@@ -1,0 +1,41 @@
+main {
+    background: var(--grey900);
+
+    width: 100%;
+    height: 100vh;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-central {
+    width: 280px;
+    height: fit-content;
+    background: var(--grey800);
+
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.conteudo img {
+    width: 72px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.conteudo p {
+    font-family: "Inter", serif;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 12px;
+}
